@@ -29,9 +29,9 @@ body {
     color: #ff1891;
 }
 .socialMedia {
-    border: 10px black;
+    border: 10px solid black;
     margin: 0;
-
+    width: 200px;
 }
 
 h1 {
