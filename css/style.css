@@ -1,0 +1,57 @@
+.logo {
+    width: 15%;
+    } 
+.logo-image {
+    position: relative;
+    top: 0;
+    left: 0;
+    }    
+.aboutMe {
+    width: 15%;
+    text-align: center;
+}
+.section {
+    display: inline-block;
+}
+.content {
+    width: 50%;
+    margin-top: 100px;
+}
+body {
+    width: 100vw;
+}
+.haleysHeadshot img {
+    position: relative;
+}
+.fab {
+    font-size: 28px;
+    margin: 10px;
+    color: #ff1891;
+}
+.socialMedia {
+    border: 10px black;
+    margin: 0;
+
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+}
+h2 {
+    font-family: 'Open Sans', sans-serif;
+}
+h3 {
+    font-family: 'Open Sans', sans-serif;
+}
+h4 {
+    font-family: 'Open Sans', sans-serif;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+.skills p {
+    color: #ff1891;
+}
+.haleysHeadshot h3 {
+    color: #ff1891;
+}
