@@ -1,39 +1,39 @@
-.logo {
-    width: 15%;
-    } 
-.logo-image {
-    position: relative;
-    top: 0;
-    left: 0;
-    }    
-.aboutMe {
-    width: 15%;
-    text-align: center;
-}
-.section {
-    display: inline-block;
-}
-.content {
-    width: 50%;
-    margin-top: 100px;
-}
-body {
-    width: 100vw;
-}
-.haleysHeadshot img {
-    position: relative;
-}
 .fab {
-    font-size: 28px;
+    font-size: 25px;
     margin: 10px;
     color: #ff1891;
 }
 .socialMedia {
-    border: 10px solid black;
+    border: 5px solid black;
     margin: 0;
-    width: 200px;
+    width: 140px;
+    background-color: black;
+    align-items: center;
+    box-shadow: #ff1891;
+}
+.sectionGrid {
+    display: grid;
+    grid-template-columns: 25% 25% 50%;
+    grid-template-rows: 25% 75%;
+    grid-gap: 20px;
+    padding: 25px;
+
+}
+.logo {
+    grid-column: 1;
+    grid-row: 1;
+
+}
+.aboutMe {
+    grid-column: 2;
+    grid-row: 2;
+    align-items: center;
 }
 
+.content {
+    grid-column: 3;
+    grid-row: 2;
+}
 h1 {
     font-family: 'Open Sans', sans-serif;
 }
